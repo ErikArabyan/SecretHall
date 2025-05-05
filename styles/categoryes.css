@@ -1,0 +1,71 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.background {
+  background-image: url('../assets/category_page/category_background.jpg');
+  background-position-y: -85px;
+  height: 100vh;
+  width: 100vw;
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+.container {
+  display: flex;
+  padding-top: 20px;
+  justify-content: center;
+  height: 100vh;
+  width: 100vw;
+}
+
+.svg {
+  background-color: white;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  padding: 5px;
+  align-items: center;
+}
+
+.category-container {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: white;
+  padding-top: 20px;
+  left: 0;
+  top: 100px;
+  width: 100%;
+  height: 100%;
+  border-radius: 40px;
+}
+
+.card {
+  display: flex;
+  position: relative;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 15px;
+}
+
+.category-name{
+  position: absolute;
+  text-align: center;
+  top: 50px;
+  color: white;
+  font-size: 60px;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.card-background{
+  width: 90%;
+  border-radius: 20px;
+}
+
+.title {
+  color: rgb(43, 39, 39);
+}
