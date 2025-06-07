@@ -3,6 +3,10 @@
   padding: 0;
 }
 
+body {
+  visibility: hidden;
+}
+
 .background {
   background-image: url('../assets/category_page/category_background.jpg');
   background-position-y: -85px;
