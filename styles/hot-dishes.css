@@ -6,6 +6,9 @@ body {
   scroll-behavior: smooth;
   background-size: cover;
 }
+body {
+  visibility: hidden;
+}
 
 #toggle_id {
   position: absolute;
